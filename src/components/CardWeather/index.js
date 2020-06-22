@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactCountryFlag from 'react-country-flag';
+import PropTypes from 'prop-types';
 
 import { CardWeatherContainer } from './style';
 
@@ -24,11 +25,30 @@ const CardWeather = ({ icon, min, max, current, city, country }) => {
       </div>
       <div className='weather-icon'>
         <img
+          alt='Weather icon'
           src={`https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/${icon}.svg`}
         />
       </div>
     </CardWeatherContainer>
   );
+};
+
+CardWeather.propTypes = {
+  icon: PropTypes.string,
+  min: PropTypes.string,
+  max: PropTypes.string,
+  current: PropTypes.string,
+  city: PropTypes.string,
+  country: PropTypes.string,
+};
+
+CardWeather.defaultProps = {
+  icon: '',
+  min: '',
+  max: '',
+  current: '',
+  city: '',
+  country: '',
 };
 
 export default CardWeather;
