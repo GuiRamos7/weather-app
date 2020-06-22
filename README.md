@@ -25,3 +25,7 @@
 **Run the application**
 
 ```yarn start```
+
+# Techs used in this project
+
+The tecnologies used in this project are [ReactJS](https://reactjs.org/), to handle the style was used [Styled Componentes](https://styled-components.com/) and [SCSS](https://sass-lang.com/)
