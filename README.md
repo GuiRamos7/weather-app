@@ -28,4 +28,4 @@
 
 # Techs used in this project
 
-The tecnologies used in this project are [ReactJS](https://reactjs.org/), to handle the style was used [Styled Componentes](https://styled-components.com/) and [SCSS](https://sass-lang.com/)
+The tecnologies used in this project are [ReactJS](https://reactjs.org/), to handle the style was used [Styled Componentes](https://styled-components.com/) and [SCSS](https://sass-lang.com/) and I use the API [OpenWeather](https://openweathermap.org/) for consulting the weather
